@@ -11,7 +11,7 @@ print(ascii_banner)
 # Setup
 output_dir = r"C:\Users\ainks\OneDrive\Desktop\py_kyutopus\cyber_tools\key_logger\captured_data"
 os.makedirs(output_dir, exist_ok=True)
-timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") #take the current timestamp from the system
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") #take the current timestamp from the system and name the log file accordingly
 log_filename = f"keystrokes_{timestamp}.txt"
 log_path = os.path.join(output_dir, log_filename) 
 
