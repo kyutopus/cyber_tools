@@ -42,7 +42,7 @@ This repository is provided for **learning and research** only.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cyber_tools.git
+git clone https://github.com/kyutopus/cyber_tools.git
 cd cyber_tools
 
 # Run a script
